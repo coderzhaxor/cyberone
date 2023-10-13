@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form input {
+  @apply bg-slate-50 md:bg-gray-50 dark:bg-white/10 dark:md:bg-white/10 px-3 py-2 text-lg placeholder:text-lg w-full block rounded-sm focus:outline-none;
+}
+
+form label {
+  @apply text-lg w-full;
+}
